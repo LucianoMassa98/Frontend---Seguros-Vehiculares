@@ -1,0 +1,301 @@
+﻿++Solución "MycGroupApp" ‎(1 de 1 proyecto)
+i:{00000000-0000-0000-0000-000000000000}:MycGroupApp.sln
+++MycGroupApp
+i:{00000000-0000-0000-0000-000000000000}:MycGroupApp
+++Properties
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\
+++Referencias
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++Home
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\
+++Gestión de Administración
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\
+++Gestión de Cobro
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\
+++AgregarCliente.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarcliente.cs
+++AgregarClienteServicio.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclienteservicio.cs
+++AgregarClienteVehiculo.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclientevehiculo.cs
+++Clientes.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\clientes.cs
+++Comprobantes.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\comprobantes.cs
+++EditarCliente.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\editarcliente.cs
+++GestionDeCobros.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\gestiondecobros.cs
+++ImprimirComprobante.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\imprimircomprobante.cs
+++Pendientes.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\pendientes.cs
+++RenovarClienteServicio.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\renovarclienteservicio.cs
+++Monedero Virtual
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\
+++Home.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\home.cs
+++Inicio
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\
+++Login.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\login.cs
+++MensajeAviso.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajeaviso.cs
+++MensajeBienvenida.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajebienvenida.cs
+++SeleccionarOficinaLocal.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\seleccionaroficinalocal.cs
+++Modules
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\modules\
+++ViewModels
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\
+++App.config
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\app.config
+++packages.config
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\packages.config
+++Program.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\program.cs
+++Router.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\router.cs
+++AssemblyInfo.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\assemblyinfo.cs
+++Resources.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\resources.resx
+++Settings.settings
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\settings.settings
+++BouncyCastle.Crypto
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++itextsharp
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++Microsoft.CSharp
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++Newtonsoft.Json
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Core
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Data
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Data.DataSetExtensions
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Deployment
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Drawing
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Net.Http
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Windows.Forms
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Xml
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++System.Xml.Linq
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:
+++Oficinas
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\
+++Servicios
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\
+++Usuarios
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\
+++Vehiculos
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\
+++GestionDeAdministracion.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\gestiondeadministracion.cs
+++AgregarCliente.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarcliente.designer.cs
+++AgregarCliente.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarcliente.resx
+++AgregarClienteServicio.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclienteservicio.designer.cs
+++AgregarClienteServicio.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclienteservicio.resx
+++AgregarClienteVehiculo.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclientevehiculo.designer.cs
+++AgregarClienteVehiculo.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\agregarclientevehiculo.resx
+++Clientes.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\clientes.designer.cs
+++Clientes.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\clientes.resx
+++Comprobantes.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\comprobantes.designer.cs
+++Comprobantes.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\comprobantes.resx
+++EditarCliente.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\editarcliente.designer.cs
+++EditarCliente.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\editarcliente.resx
+++GestionDeCobros.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\gestiondecobros.designer.cs
+++GestionDeCobros.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\gestiondecobros.resx
+++ImprimirComprobante.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\imprimircomprobante.designer.cs
+++ImprimirComprobante.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\imprimircomprobante.resx
+++Pendientes.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\pendientes.designer.cs
+++Pendientes.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\pendientes.resx
+++RenovarClienteServicio.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\renovarclienteservicio.designer.cs
+++RenovarClienteServicio.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de cobro\renovarclienteservicio.resx
+++Caja.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\caja.cs
+++Cajas.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\cajas.cs
+++MonederoVirtual.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\monederovirtual.cs
+++OperarCaja.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\operarcaja.cs
+++Home.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\home.designer.cs
+++Home.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\home.resx
+++Login.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\login.designer.cs
+++Login.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\login.resx
+++MensajeAviso.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajeaviso.designer.cs
+++MensajeAviso.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajeaviso.resx
+++MensajeBienvenida.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajebienvenida.designer.cs
+++MensajeBienvenida.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\mensajebienvenida.resx
+++SeleccionarOficinaLocal.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\seleccionaroficinalocal.designer.cs
+++SeleccionarOficinaLocal.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\inicio\seleccionaroficinalocal.resx
+++PDF.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\modules\pdf.cs
+++ClienteVehiculoViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\clientevehiculoviewmodel.cs
+++ClienteViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\clienteviewmodel.cs
+++MovimientoViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\movimientoviewmodel.cs
+++OficinaViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\oficinaviewmodel.cs
+++OperacionViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\operacionviewmodel.cs
+++ServicioValorViewModel.cs
+++ServicioViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\servicioviewmodel.cs
+++UsuarioViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\usuarioviewmodel.cs
+++VehiculoViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\vehiculoviewmodel.cs
+++Resources.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\properties\settings.designer.cs
+++AgregarOficina.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\agregaroficina.cs
+++EditarOficina.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\editaroficina.cs
+++Oficinas.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\oficinas.cs
+++AgregarServicio.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\agregarservicio.cs
+++EditarServicio.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\editarservicio.cs
+++EditarServicioValor.cs
+++Servicios.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\servicios.cs
+++AgregarUsuario.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\agregarusuario.cs
+++EditarUsuario.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\editarusuario.cs
+++Usuarios.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\usuarios.cs
+++AgregarVehiculo.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\agregarvehiculo.cs
+++EditarVehiculo.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\editarvehiculo.cs
+++Vehiculos.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\vehiculos.cs
+++GestionDeAdministracion.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\gestiondeadministracion.designer.cs
+++GestionDeAdministracion.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\gestiondeadministracion.resx
+++Caja.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\caja.designer.cs
+++Caja.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\caja.resx
+++Cajas.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\cajas.designer.cs
+++Cajas.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\cajas.resx
+++MonederoVirtual.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\monederovirtual.designer.cs
+++MonederoVirtual.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\monederovirtual.resx
+++OperarCaja.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\operarcaja.designer.cs
+++OperarCaja.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\monedero virtual\operarcaja.resx
+++AgregarOficina.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\agregaroficina.designer.cs
+++AgregarOficina.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\agregaroficina.resx
+++EditarOficina.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\editaroficina.designer.cs
+++EditarOficina.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\editaroficina.resx
+++Oficinas.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\oficinas.designer.cs
+++Oficinas.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\oficinas\oficinas.resx
+++AgregarServicio.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\agregarservicio.designer.cs
+++AgregarServicio.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\agregarservicio.resx
+++EditarServicio.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\editarservicio.designer.cs
+++EditarServicio.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\editarservicio.resx
+++EditarServicioValor.Designer.cs
+++EditarServicioValor.resx
+++Servicios.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\servicios.designer.cs
+++Servicios.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\servicios\servicios.resx
+++AgregarUsuario.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\agregarusuario.designer.cs
+++AgregarUsuario.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\agregarusuario.resx
+++EditarUsuario.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\editarusuario.designer.cs
+++EditarUsuario.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\editarusuario.resx
+++Usuarios.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\usuarios.designer.cs
+++Usuarios.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\usuarios\usuarios.resx
+++AgregarVehiculo.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\agregarvehiculo.designer.cs
+++AgregarVehiculo.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\agregarvehiculo.resx
+++EditarVehiculo.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\editarvehiculo.designer.cs
+++EditarVehiculo.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\editarvehiculo.resx
+++Vehiculos.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\vehiculos.designer.cs
+++Vehiculos.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\vehiculos\vehiculos.resx
+++Precios.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\precios\precios.cs
+++Precios.Designer.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\precios\precios.designer.cs
+++Precios.resx
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\precios\precios.resx
+++NewFolder1
+++Precios
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\home\gestión de administración\precios\
+++PrecioViewModel.cs
+i:{c799b1d8-628e-4209-b74b-522ef89f8606}:c:\users\luciano\mycgroupapp\viewmodels\precioviewmodel.cs

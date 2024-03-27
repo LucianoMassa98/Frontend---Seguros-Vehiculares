@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C799B1D8-628E-4209-B74B-522EF89F8606}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MycGroupApp</RootNamespace>
+    <AssemblyName>MycGroupApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax, Version=4.3.1.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Api.Gax.4.3.1\lib\net462\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Rest, Version=4.3.1.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Api.Gax.Rest.4.3.1\lib\net462\Google.Api.Gax.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.60.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.1.60.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.60.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Auth.1.60.0\lib\net461\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.60.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Auth.1.60.0\lib\net461\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.60.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Core.1.60.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.60.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.1.60.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Translate.v2, Version=1.60.0.875, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Translate.v2.1.60.0.875\lib\net45\Google.Apis.Translate.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Translation.V2, Version=3.2.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Cloud.Translation.V2.3.2.0\lib\net462\Google.Cloud.Translation.V2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Home\Gestión de Administración\GestionDeAdministracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\GestionDeAdministracion.Designer.cs">
+      <DependentUpon>GestionDeAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\EditarOficina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\EditarOficina.Designer.cs">
+      <DependentUpon>EditarOficina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\Oficinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\Oficinas.Designer.cs">
+      <DependentUpon>Oficinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\AgregarOficina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Oficinas\AgregarOficina.Designer.cs">
+      <DependentUpon>AgregarOficina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\AgregarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\AgregarServicio.Designer.cs">
+      <DependentUpon>AgregarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Precios\Precios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Precios\Precios.Designer.cs">
+      <DependentUpon>Precios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\EditarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\EditarServicio.Designer.cs">
+      <DependentUpon>EditarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\Servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Servicios\Servicios.Designer.cs">
+      <DependentUpon>Servicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\EditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\EditarUsuario.Designer.cs">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\AgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\AgregarUsuario.Designer.cs">
+      <DependentUpon>AgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Usuarios\Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\EditarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\EditarVehiculo.Designer.cs">
+      <DependentUpon>EditarVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\AgregarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\AgregarVehiculo.Designer.cs">
+      <DependentUpon>AgregarVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\Vehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Administración\Vehiculos\Vehiculos.Designer.cs">
+      <DependentUpon>Vehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarClienteVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarClienteVehiculo.Designer.cs">
+      <DependentUpon>AgregarClienteVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarClienteServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarClienteServicio.Designer.cs">
+      <DependentUpon>AgregarClienteServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\ImprimirComprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\ImprimirComprobante.Designer.cs">
+      <DependentUpon>ImprimirComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\RenovarClienteServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\RenovarClienteServicio.Designer.cs">
+      <DependentUpon>RenovarClienteServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Pendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Pendientes.Designer.cs">
+      <DependentUpon>Pendientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Comprobantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Comprobantes.Designer.cs">
+      <DependentUpon>Comprobantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\EditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\EditarCliente.Designer.cs">
+      <DependentUpon>EditarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\AgregarCliente.Designer.cs">
+      <DependentUpon>AgregarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\GestionDeCobros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\GestionDeCobros.Designer.cs">
+      <DependentUpon>GestionDeCobros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Gestión de Cobro\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\Cajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\Cajas.Designer.cs">
+      <DependentUpon>Cajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\Caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\Caja.Designer.cs">
+      <DependentUpon>Caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\OperarCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\OperarCaja.Designer.cs">
+      <DependentUpon>OperarCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\MonederoVirtual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\Monedero Virtual\MonederoVirtual.Designer.cs">
+      <DependentUpon>MonederoVirtual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\MensajeBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\MensajeBienvenida.Designer.cs">
+      <DependentUpon>MensajeBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\SeleccionarOficinaLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\SeleccionarOficinaLocal.Designer.cs">
+      <DependentUpon>SeleccionarOficinaLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\MensajeAviso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\MensajeAviso.Designer.cs">
+      <DependentUpon>MensajeAviso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Traduccion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Router.cs" />
+    <Compile Include="Modules\PDF.cs" />
+    <Compile Include="ViewModels\ClienteVehiculoViewModel.cs" />
+    <Compile Include="ViewModels\ClienteViewModel.cs" />
+    <Compile Include="ViewModels\MovimientoViewModel.cs" />
+    <Compile Include="ViewModels\OficinaViewModel.cs" />
+    <Compile Include="ViewModels\OperacionViewModel.cs" />
+    <Compile Include="ViewModels\PrecioViewModel.cs" />
+    <Compile Include="ViewModels\ErrorResponse.cs" />
+    <Compile Include="ViewModels\ServicioViewModel.cs" />
+    <Compile Include="ViewModels\UsuarioViewModel.cs" />
+    <Compile Include="ViewModels\CorrectResponse.cs" />
+    <Compile Include="ViewModels\VehiculoViewModel.cs" />
+    <EmbeddedResource Include="Home\Gestión de Administración\GestionDeAdministracion.resx">
+      <DependentUpon>GestionDeAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Oficinas\EditarOficina.resx">
+      <DependentUpon>EditarOficina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Oficinas\Oficinas.resx">
+      <DependentUpon>Oficinas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Oficinas\AgregarOficina.resx">
+      <DependentUpon>AgregarOficina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Servicios\AgregarServicio.resx">
+      <DependentUpon>AgregarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Precios\Precios.resx">
+      <DependentUpon>Precios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Servicios\EditarServicio.resx">
+      <DependentUpon>EditarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Servicios\Servicios.resx">
+      <DependentUpon>Servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Usuarios\EditarUsuario.resx">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Usuarios\AgregarUsuario.resx">
+      <DependentUpon>AgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Usuarios\Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Vehiculos\EditarVehiculo.resx">
+      <DependentUpon>EditarVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Vehiculos\AgregarVehiculo.resx">
+      <DependentUpon>AgregarVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Administración\Vehiculos\Vehiculos.resx">
+      <DependentUpon>Vehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\AgregarClienteVehiculo.resx">
+      <DependentUpon>AgregarClienteVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\AgregarClienteServicio.resx">
+      <DependentUpon>AgregarClienteServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\ImprimirComprobante.resx">
+      <DependentUpon>ImprimirComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\RenovarClienteServicio.resx">
+      <DependentUpon>RenovarClienteServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\Pendientes.resx">
+      <DependentUpon>Pendientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\Comprobantes.resx">
+      <DependentUpon>Comprobantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\EditarCliente.resx">
+      <DependentUpon>EditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\AgregarCliente.resx">
+      <DependentUpon>AgregarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\GestionDeCobros.resx">
+      <DependentUpon>GestionDeCobros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Gestión de Cobro\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Monedero Virtual\Cajas.resx">
+      <DependentUpon>Cajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Monedero Virtual\Caja.resx">
+      <DependentUpon>Caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Monedero Virtual\OperarCaja.resx">
+      <DependentUpon>OperarCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\Monedero Virtual\MonederoVirtual.resx">
+      <DependentUpon>MonederoVirtual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\MensajeBienvenida.resx">
+      <DependentUpon>MensajeBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\SeleccionarOficinaLocal.resx">
+      <DependentUpon>SeleccionarOficinaLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\MensajeAviso.resx">
+      <DependentUpon>MensajeAviso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
